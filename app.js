@@ -32,8 +32,8 @@ function calculateAge() {
     if (d2 >= d1) {
         day = d2 - d1;
     } else {
-        m3--;
-        d3 = getDaysInMonth(y1, m1) + d2 - d1;
+        month--;
+        day = getDaysInMonth(y1, m1) + d2 - d1;
     }
 
     if (month < 0) {
